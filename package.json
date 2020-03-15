@@ -1,0 +1,25 @@
+{
+  "name": "quotes-preprocessing",
+  "version": "1.0.0",
+  "description": "Web scrap quotes and upload them in dynamodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davimuri/quotes-preprocessing.git"
+  },
+  "author": "David Murillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davimuri/quotes-preprocessing/issues"
+  },
+  "homepage": "https://github.com/davimuri/quotes-preprocessing#readme",
+  "dependencies": {
+    "aws-sdk": "^2.630.0",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
